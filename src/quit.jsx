@@ -6,7 +6,7 @@ const quit = () => {
     <>
         <div className="header">
             <div className="logo"><Link to="/about" className="options">About me</Link></div>
-            <div className="logo"><Link to="/" className="options">Register</Link></div>
+            <div className="logo"><Link to="/home" className="options">Register</Link></div>
             <div className="logo"><Link to="quit" className="options">Quit</Link></div>
         </div>
 
