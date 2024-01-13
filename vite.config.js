@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/ReactPage/',
   plugins: [react()],
+  optimizeDeps: {
+    include: ['react-router-dom'],
+  }
 })
