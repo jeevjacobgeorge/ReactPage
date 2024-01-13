@@ -5,11 +5,10 @@ const quit = () => {
   return (
     <>
         <div className="header">
-            <div className="logo"><Link to="/about" className="options">About me</Link></div>
-            <div className="logo"><Link to="/home" className="options">Register</Link></div>
-            <div className="logo"><Link to="quit" className="options">Quit</Link></div>
+          <div className="logo"><Link to="/about" className="options">About me</Link></div>
+          <div className="logo"><Link to="/ReactPage" className="options">Register</Link></div>
+          <div className="logo"><Link to="/quit" className="options">Quit</Link></div>
         </div>
-
         <div className={styles.container}>
             <h1>Goodbye!</h1>
             <p>Thank you for using our service. We hope to see you again!</p>

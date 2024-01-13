@@ -14,15 +14,15 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/ReactPage",
     element:<App/>
   },
   {
-    path: "about",
+    path: "/about",
     element: <About/>,
   },
   {
-      path:"quit",
+      path:"/quit",
       element: <Quit/>,
   },
 ]);

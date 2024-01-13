@@ -5,8 +5,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "install-router": "npm install react-router-dom",
-    "predeploy": "npm run build",
     "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",

@@ -26,9 +26,9 @@ function App() {
   return (
     <>
       <div className="header">
-        <div className="logo"><Link to="about" className="options">About me</Link></div>
-        <div className="logo"><Link to="/home" className="options">Register</Link></div>
-        <div className="logo"><Link to="quit" className="options">Quit</Link></div>
+        <div className="logo"><Link to="/about" className="options">About me</Link></div>
+        <div className="logo"><Link to="/ReactPage" className="options">Register</Link></div>
+        <div className="logo"><Link to="/quit" className="options">Quit</Link></div>
       </div>
       <div className = "body">
       <input onChange={(e)=>setUserData({...userData, name:e.target.value})} placeholder = 'Enter Name' type="text" />
