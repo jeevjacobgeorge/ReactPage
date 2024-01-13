@@ -14,7 +14,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/ReactPage",
+    path: "/",
     element:<App/>
   },
   {
