@@ -14,7 +14,11 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "ReactPage/home",
+    element:<App/>
+  },
+  {
+    path: "ReactPage/",
     element:<App/>
   },
   {
